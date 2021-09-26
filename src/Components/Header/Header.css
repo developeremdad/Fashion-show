@@ -1,0 +1,11 @@
+.header-container{
+    background-color: #003B3A;
+    color: #FFC745;
+}
+.header-title{
+    font-size: 30px;
+    letter-spacing: .4rem;
+}
+.header-description{
+    word-spacing: .2rem;
+}
