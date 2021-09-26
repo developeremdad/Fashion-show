@@ -22,7 +22,7 @@ const Model = (props) => {
                         <p className="card-text"><b>Hire:</b> $ {hire} (Week)</p>
                     </div>
                     <div className="card-footer">
-                        <button onClick={() => props.handleHire(props.model)}>Hire Model</button>
+                        <button onClick={() => props.handleHire(props.model)}><i class="fas fa-check"></i> Hire Model</button>
                     </div>
                 </div>
             </div>
