@@ -2,7 +2,8 @@ import React from 'react';
 import './Model.css';
 
 const Model = (props) => {
-    console.log(props.model);
+    // console.log(props.handleHire);
+
     const { person, img, age, height, job, experience, city, edu, hire } = props.model;
     return (
         <div className="col col-lg-4 col-md-6 col-sm-12">
@@ -21,7 +22,7 @@ const Model = (props) => {
                         <p className="card-text"><b>Hire:</b> $ {hire} (Per Week)</p>
                     </div>
                     <div className="card-footer">
-                        <button>Hire Model</button>
+                        <button onClick={() => props.handleHire(props.model)}>Hire Model</button>
                     </div>
                 </div>
             </div>
