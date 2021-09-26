@@ -1,4 +1,4 @@
- [
+[
   {
     "key": 1,
     "person": "Alton Mason",
@@ -19,7 +19,7 @@
     "height": "1.79m",
     "age": 23,
     "edu": "The American Musical and Dramatic Academy",
-    "experience": "Teen Choice Award for Choice TV",
+    "experience": "Award for Choice TV",
     "city": "New York, United States",
     "hire": 2100
   },
@@ -102,7 +102,7 @@
     "job": "German Supermodel",
     "height": "1.88m",
     "age": 43,
-    "edu": "University of Hamburg",
+    "edu": "University of Hamburg Hanover German",
     "experience": "on the way",
     "city": "Hanover, Germany",
     "hire": 2250
