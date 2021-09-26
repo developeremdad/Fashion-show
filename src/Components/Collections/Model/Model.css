@@ -1,11 +1,8 @@
 .model{
     background-color: #CCF2FF;
     color: #000908;
+    border: 1px solid #ffb300;
 }
-/* .custom-card-style{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-} */
 .custom-img-style{
     height: 200px;
     width: 200px;

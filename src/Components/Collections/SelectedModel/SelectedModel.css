@@ -1,0 +1,12 @@
+.select-model{
+    background-color: #b9c8c7;
+    border: 1px solid tomato;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.model-img{
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+}

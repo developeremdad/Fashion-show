@@ -8,20 +8,24 @@ const Collections = () => {
     const [models, setModels] = useState([]);
     // for handleHire button click 
     const [SelectModel, setSelectModel] = useState([]);
+    // console.log(SelectModel);
     useEffect(() => {
         fetch('./FakeModels.JSON')
             .then(res => res.json())
             .then(data => setModels(data))
     }, [])
 
+
+    // if click hire button then work function 
     const handleHire = (model) => {
-        setSelectModel(model);
+        const newModel = [...SelectModel, model]
+        setSelectModel(newModel);
     }
 
     return (
-        <div className="row container-fluid collection-container">
+        <div className="row container-fluid pt-4">
             <div className="col-lg-9">
-                <div className="row g-3">
+                <div className="row g-4">
                     {
                         models.map(model => <Model
                             model={model}
