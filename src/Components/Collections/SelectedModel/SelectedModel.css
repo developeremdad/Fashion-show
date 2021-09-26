@@ -1,12 +1,16 @@
 .select-model{
-    background-color: #b9c8c7;
-    border: 1px solid tomato;
+    background-color: #F1F1F1;
     border-radius: 15px;
     font-size: 20px;
 }
-
+.cart-container{
+    background-color: #003B3A;
+}
 .model-img{
     height: 70px;
     width: 70px;
     border-radius: 20px;
+}
+.price{
+    color: #FFC745;
 }

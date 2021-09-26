@@ -9,10 +9,10 @@ const SelectedModel = (props) => {
     }
 
     return (
-        <div className="border p-2">
-            <div className="text-center fs-4">
+        <div className="cart-container p-2 rounded-3">
+            <div className="text-center text-white fs-4">
                 <p><b>Selected Models : {SelectModel.length}</b></p>
-                <p><b>Total Budget: </b>$ {price}</p>
+                <p><b>Total Budget: </b><span className="price">$ {price}</span></p>
             </div>
             {
                 // add to cart models
