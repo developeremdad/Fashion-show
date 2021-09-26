@@ -24,6 +24,7 @@ const Collections = () => {
 
     return (
         <div className="row container-fluid pt-4">
+            {/* display models in this section  */}
             <div className="col-lg-9">
                 <div className="row g-4">
                     {
@@ -36,6 +37,7 @@ const Collections = () => {
                 </div>
             </div>
             <div className="col-lg-3">
+                {/* display selected models in this section */}
                 <SelectedModel SelectModel={SelectModel}></SelectedModel>
             </div>
         </div>

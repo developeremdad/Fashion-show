@@ -2,16 +2,17 @@ import React from 'react';
 import './Model.css';
 
 const Model = (props) => {
-    // console.log(props.handleHire);
 
     const { person, img, age, height, experience, city, edu, hire } = props.model;
     return (
         <div className="col col-lg-4 col-md-6 col-sm-12">
+            {/* display all models  */}
             <div className="">
                 <div className="card h-100 model">
                     <div className="text-center">
                         <img src={img} className="card-img-top custom-img-style" alt="Model images" />
                     </div>
+
                     <div className="card-body">
                         <h4 className="card-title"><b>Name:</b> {person}</h4>
                         <p className="card-text"><b>Education:</b> {edu}</p>
@@ -22,7 +23,10 @@ const Model = (props) => {
                         <p className="card-text"><b>Hire:</b> $ {hire} (Week)</p>
                     </div>
                     <div className="card-footer">
-                        <button onClick={() => props.handleHire(props.model)}><i class="fas fa-check"></i> Hire Model</button>
+                        {/* click handler  select button */}
+                        <button
+                            onClick={() => props.handleHire(props.model)}
+                        ><i className="fas fa-check"></i> Hire Model</button>
                     </div>
                 </div>
             </div>
