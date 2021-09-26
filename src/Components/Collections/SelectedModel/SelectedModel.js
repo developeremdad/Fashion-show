@@ -12,7 +12,7 @@ const SelectedModel = (props) => {
         <div className="border p-2">
             <div className="text-center fs-4">
                 <p><b>Selected Models : {SelectModel.length}</b></p>
-                <p><b>Total Budget: </b>{price}</p>
+                <p><b>Total Budget: </b>$ {price}</p>
             </div>
             {
                 SelectModel.map(model => <Cart
